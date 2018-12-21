@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		721FE0D121CCA10D00724310 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721FE0D021CCA10D00724310 /* AppDelegate.swift */; };
+		721FE0D321CCA10D00724310 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721FE0D221CCA10D00724310 /* ViewController.swift */; };
+		721FE0D621CCA10D00724310 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 721FE0D421CCA10D00724310 /* Main.storyboard */; };
+		721FE0D821CCA10E00724310 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 721FE0D721CCA10E00724310 /* Assets.xcassets */; };
+		721FE0DB21CCA10E00724310 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 721FE0D921CCA10E00724310 /* LaunchScreen.storyboard */; };
+		721FE0E421CCA1DF00724310 /* KRAColorsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721FE0E321CCA1DF00724310 /* KRAColorsButton.swift */; };
+		721FE0E621CCA28F00724310 /* KRAColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721FE0E521CCA28F00724310 /* KRAColorExtension.swift */; };
+		721FE0E821CCA31A00724310 /* KRAStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721FE0E721CCA31A00724310 /* KRAStringExtension.swift */; };
+		721FE0EA21CCA38E00724310 /* KRAButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721FE0E921CCA38E00724310 /* KRAButtonExtension.swift */; };
+		721FE0EC21CCAEED00724310 /* KRATopImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721FE0EB21CCAEED00724310 /* KRATopImageButton.swift */; };
+		721FE0EE21CCAF4200724310 /* KRAViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721FE0ED21CCAF4200724310 /* KRAViewExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		721FE0CD21CCA10D00724310 /* SwiftTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		721FE0D021CCA10D00724310 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		721FE0D221CCA10D00724310 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		721FE0D521CCA10D00724310 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		721FE0D721CCA10E00724310 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		721FE0DA21CCA10E00724310 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		721FE0DC21CCA10E00724310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		721FE0E321CCA1DF00724310 /* KRAColorsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRAColorsButton.swift; sourceTree = "<group>"; };
+		721FE0E521CCA28F00724310 /* KRAColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRAColorExtension.swift; sourceTree = "<group>"; };
+		721FE0E721CCA31A00724310 /* KRAStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRAStringExtension.swift; sourceTree = "<group>"; };
+		721FE0E921CCA38E00724310 /* KRAButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRAButtonExtension.swift; sourceTree = "<group>"; };
+		721FE0EB21CCAEED00724310 /* KRATopImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRATopImageButton.swift; sourceTree = "<group>"; };
+		721FE0ED21CCAF4200724310 /* KRAViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRAViewExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		721FE0CA21CCA10D00724310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		721FE0C421CCA10D00724310 = {
+			isa = PBXGroup;
+			children = (
+				721FE0CF21CCA10D00724310 /* SwiftTools */,
+				721FE0CE21CCA10D00724310 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		721FE0CE21CCA10D00724310 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				721FE0CD21CCA10D00724310 /* SwiftTools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		721FE0CF21CCA10D00724310 /* SwiftTools */ = {
+			isa = PBXGroup;
+			children = (
+				721FE0E221CCA11C00724310 /* Tools */,
+				721FE0D021CCA10D00724310 /* AppDelegate.swift */,
+				721FE0D221CCA10D00724310 /* ViewController.swift */,
+				721FE0D421CCA10D00724310 /* Main.storyboard */,
+				721FE0D721CCA10E00724310 /* Assets.xcassets */,
+				721FE0D921CCA10E00724310 /* LaunchScreen.storyboard */,
+				721FE0DC21CCA10E00724310 /* Info.plist */,
+			);
+			path = SwiftTools;
+			sourceTree = "<group>";
+		};
+		721FE0E221CCA11C00724310 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				721FE0E321CCA1DF00724310 /* KRAColorsButton.swift */,
+				721FE0EB21CCAEED00724310 /* KRATopImageButton.swift */,
+				721FE0E921CCA38E00724310 /* KRAButtonExtension.swift */,
+				721FE0E521CCA28F00724310 /* KRAColorExtension.swift */,
+				721FE0E721CCA31A00724310 /* KRAStringExtension.swift */,
+				721FE0ED21CCAF4200724310 /* KRAViewExtension.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		721FE0CC21CCA10D00724310 /* SwiftTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 721FE0DF21CCA10E00724310 /* Build configuration list for PBXNativeTarget "SwiftTools" */;
+			buildPhases = (
+				721FE0C921CCA10D00724310 /* Sources */,
+				721FE0CA21CCA10D00724310 /* Frameworks */,
+				721FE0CB21CCA10D00724310 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftTools;
+			productName = SwiftTools;
+			productReference = 721FE0CD21CCA10D00724310 /* SwiftTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		721FE0C521CCA10D00724310 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KRA;
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Kuratasx;
+				TargetAttributes = {
+					721FE0CC21CCA10D00724310 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 721FE0C821CCA10D00724310 /* Build configuration list for PBXProject "SwiftTools" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 721FE0C421CCA10D00724310;
+			productRefGroup = 721FE0CE21CCA10D00724310 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				721FE0CC21CCA10D00724310 /* SwiftTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		721FE0CB21CCA10D00724310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				721FE0DB21CCA10E00724310 /* LaunchScreen.storyboard in Resources */,
+				721FE0D821CCA10E00724310 /* Assets.xcassets in Resources */,
+				721FE0D621CCA10D00724310 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		721FE0C921CCA10D00724310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				721FE0EA21CCA38E00724310 /* KRAButtonExtension.swift in Sources */,
+				721FE0E621CCA28F00724310 /* KRAColorExtension.swift in Sources */,
+				721FE0E821CCA31A00724310 /* KRAStringExtension.swift in Sources */,
+				721FE0D321CCA10D00724310 /* ViewController.swift in Sources */,
+				721FE0D121CCA10D00724310 /* AppDelegate.swift in Sources */,
+				721FE0EC21CCAEED00724310 /* KRATopImageButton.swift in Sources */,
+				721FE0E421CCA1DF00724310 /* KRAColorsButton.swift in Sources */,
+				721FE0EE21CCAF4200724310 /* KRAViewExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		721FE0D421CCA10D00724310 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				721FE0D521CCA10D00724310 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		721FE0D921CCA10E00724310 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				721FE0DA21CCA10E00724310 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		721FE0DD21CCA10E00724310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		721FE0DE21CCA10E00724310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		721FE0E021CCA10E00724310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8R3HK2N2D;
+				INFOPLIST_FILE = SwiftTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KuratasX.SwiftTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		721FE0E121CCA10E00724310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8R3HK2N2D;
+				INFOPLIST_FILE = SwiftTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KuratasX.SwiftTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		721FE0C821CCA10D00724310 /* Build configuration list for PBXProject "SwiftTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				721FE0DD21CCA10E00724310 /* Debug */,
+				721FE0DE21CCA10E00724310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		721FE0DF21CCA10E00724310 /* Build configuration list for PBXNativeTarget "SwiftTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				721FE0E021CCA10E00724310 /* Debug */,
+				721FE0E121CCA10E00724310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 721FE0C521CCA10D00724310 /* Project object */;
+}
