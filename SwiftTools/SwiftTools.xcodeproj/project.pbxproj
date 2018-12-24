@@ -18,6 +18,7 @@
 		721FE0EA21CCA38E00724310 /* KRAButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721FE0E921CCA38E00724310 /* KRAButtonExtension.swift */; };
 		721FE0EC21CCAEED00724310 /* KRATopImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721FE0EB21CCAEED00724310 /* KRATopImageButton.swift */; };
 		721FE0EE21CCAF4200724310 /* KRAViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721FE0ED21CCAF4200724310 /* KRAViewExtension.swift */; };
+		72497EC021D0BAD90017CB48 /* KRAFileManager+StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72497EBF21D0BAD90017CB48 /* KRAFileManager+StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		721FE0E921CCA38E00724310 /* KRAButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRAButtonExtension.swift; sourceTree = "<group>"; };
 		721FE0EB21CCAEED00724310 /* KRATopImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRATopImageButton.swift; sourceTree = "<group>"; };
 		721FE0ED21CCAF4200724310 /* KRAViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRAViewExtension.swift; sourceTree = "<group>"; };
+		72497EBF21D0BAD90017CB48 /* KRAFileManager+StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KRAFileManager+StringExtension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				721FE0E521CCA28F00724310 /* KRAColorExtension.swift */,
 				721FE0E721CCA31A00724310 /* KRAStringExtension.swift */,
 				721FE0ED21CCAF4200724310 /* KRAViewExtension.swift */,
+				72497EBF21D0BAD90017CB48 /* KRAFileManager+StringExtension.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 				721FE0E821CCA31A00724310 /* KRAStringExtension.swift in Sources */,
 				721FE0D321CCA10D00724310 /* ViewController.swift in Sources */,
 				721FE0D121CCA10D00724310 /* AppDelegate.swift in Sources */,
+				72497EC021D0BAD90017CB48 /* KRAFileManager+StringExtension.swift in Sources */,
 				721FE0EC21CCAEED00724310 /* KRATopImageButton.swift in Sources */,
 				721FE0E421CCA1DF00724310 /* KRAColorsButton.swift in Sources */,
 				721FE0EE21CCAF4200724310 /* KRAViewExtension.swift in Sources */,
