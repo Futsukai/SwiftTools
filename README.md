@@ -7,6 +7,9 @@
 
 - KRAButtonExtension
 	- 链式调用封装的按钮扩展
+    
+- KASWaveButton
+    - 正弦水纹进度按钮
 
 - OtherExtension
 	- KRAColorExtension

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001AEE8522757B01001A87FF /* KASWaveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001AEE8422757B01001A87FF /* KASWaveButton.swift */; };
 		721FE0D121CCA10D00724310 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721FE0D021CCA10D00724310 /* AppDelegate.swift */; };
 		721FE0D321CCA10D00724310 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721FE0D221CCA10D00724310 /* ViewController.swift */; };
 		721FE0D621CCA10D00724310 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 721FE0D421CCA10D00724310 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		001AEE8422757B01001A87FF /* KASWaveButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KASWaveButton.swift; sourceTree = "<group>"; };
 		721FE0CD21CCA10D00724310 /* SwiftTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		721FE0D021CCA10D00724310 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		721FE0D221CCA10D00724310 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 		721FE0E221CCA11C00724310 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				001AEE8422757B01001A87FF /* KASWaveButton.swift */,
 				721FE0E321CCA1DF00724310 /* KRAColorsButton.swift */,
 				721FE0EB21CCAEED00724310 /* KRATopImageButton.swift */,
 				721FE0E921CCA38E00724310 /* KRAButtonExtension.swift */,
@@ -174,6 +177,7 @@
 				721FE0D321CCA10D00724310 /* ViewController.swift in Sources */,
 				721FE0D121CCA10D00724310 /* AppDelegate.swift in Sources */,
 				72497EC021D0BAD90017CB48 /* KRAFileManager+StringExtension.swift in Sources */,
+				001AEE8522757B01001A87FF /* KASWaveButton.swift in Sources */,
 				721FE0EC21CCAEED00724310 /* KRATopImageButton.swift in Sources */,
 				721FE0E421CCA1DF00724310 /* KRAColorsButton.swift in Sources */,
 				725ADE1521DE514C00781FE5 /* KRAVideo.swift in Sources */,
