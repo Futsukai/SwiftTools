@@ -19,6 +19,10 @@
 		721FE0EA21CCA38E00724310 /* KRAButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721FE0E921CCA38E00724310 /* KRAButtonExtension.swift */; };
 		721FE0EC21CCAEED00724310 /* KRATopImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721FE0EB21CCAEED00724310 /* KRATopImageButton.swift */; };
 		721FE0EE21CCAF4200724310 /* KRAViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721FE0ED21CCAF4200724310 /* KRAViewExtension.swift */; };
+		72465CB42361DCAB0065F517 /* KRAThrottler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72465CB22361DCAB0065F517 /* KRAThrottler.swift */; };
+		72465CB52361DCAB0065F517 /* KRASafeArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72465CB32361DCAB0065F517 /* KRASafeArray.swift */; };
+		72465CB92361DF3C0065F517 /* KRAThrottler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72465CB72361DF3C0065F517 /* KRAThrottler.swift */; };
+		72465CBA2361DF3C0065F517 /* KRASafeArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72465CB82361DF3C0065F517 /* KRASafeArray.swift */; };
 		72497EC021D0BAD90017CB48 /* KRAFileManager+StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72497EBF21D0BAD90017CB48 /* KRAFileManager+StringExtension.swift */; };
 		725ADE1521DE514C00781FE5 /* KRAVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725ADE1421DE514C00781FE5 /* KRAVideo.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +42,10 @@
 		721FE0E921CCA38E00724310 /* KRAButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRAButtonExtension.swift; sourceTree = "<group>"; };
 		721FE0EB21CCAEED00724310 /* KRATopImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRATopImageButton.swift; sourceTree = "<group>"; };
 		721FE0ED21CCAF4200724310 /* KRAViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRAViewExtension.swift; sourceTree = "<group>"; };
+		72465CB22361DCAB0065F517 /* KRAThrottler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRAThrottler.swift; sourceTree = "<group>"; };
+		72465CB32361DCAB0065F517 /* KRASafeArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRASafeArray.swift; sourceTree = "<group>"; };
+		72465CB72361DF3C0065F517 /* KRAThrottler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRAThrottler.swift; sourceTree = "<group>"; };
+		72465CB82361DF3C0065F517 /* KRASafeArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRASafeArray.swift; sourceTree = "<group>"; };
 		72497EBF21D0BAD90017CB48 /* KRAFileManager+StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KRAFileManager+StringExtension.swift"; sourceTree = "<group>"; };
 		725ADE1421DE514C00781FE5 /* KRAVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRAVideo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +66,7 @@
 			children = (
 				721FE0CF21CCA10D00724310 /* SwiftTools */,
 				721FE0CE21CCA10D00724310 /* Products */,
+				72465CB62361DF320065F517 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +95,8 @@
 		721FE0E221CCA11C00724310 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				72465CB82361DF3C0065F517 /* KRASafeArray.swift */,
+				72465CB72361DF3C0065F517 /* KRAThrottler.swift */,
 				001AEE8422757B01001A87FF /* KASWaveButton.swift */,
 				721FE0E321CCA1DF00724310 /* KRAColorsButton.swift */,
 				721FE0EB21CCAEED00724310 /* KRATopImageButton.swift */,
@@ -97,6 +108,15 @@
 				725ADE1421DE514C00781FE5 /* KRAVideo.swift */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		72465CB62361DF320065F517 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				72465CB32361DCAB0065F517 /* KRASafeArray.swift */,
+				72465CB22361DCAB0065F517 /* KRAThrottler.swift */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,10 +195,14 @@
 				721FE0E621CCA28F00724310 /* KRAColorExtension.swift in Sources */,
 				721FE0E821CCA31A00724310 /* KRAStringExtension.swift in Sources */,
 				721FE0D321CCA10D00724310 /* ViewController.swift in Sources */,
+				72465CB52361DCAB0065F517 /* KRASafeArray.swift in Sources */,
+				72465CB92361DF3C0065F517 /* KRAThrottler.swift in Sources */,
 				721FE0D121CCA10D00724310 /* AppDelegate.swift in Sources */,
 				72497EC021D0BAD90017CB48 /* KRAFileManager+StringExtension.swift in Sources */,
+				72465CBA2361DF3C0065F517 /* KRASafeArray.swift in Sources */,
 				001AEE8522757B01001A87FF /* KASWaveButton.swift in Sources */,
 				721FE0EC21CCAEED00724310 /* KRATopImageButton.swift in Sources */,
+				72465CB42361DCAB0065F517 /* KRAThrottler.swift in Sources */,
 				721FE0E421CCA1DF00724310 /* KRAColorsButton.swift in Sources */,
 				725ADE1521DE514C00781FE5 /* KRAVideo.swift in Sources */,
 				721FE0EE21CCAF4200724310 /* KRAViewExtension.swift in Sources */,

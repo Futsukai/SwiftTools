@@ -20,4 +20,8 @@ extension String {
         return String(self[start..<end])
     }
     
+//    func checkFromRegularExpression(_ regex: String) -> Bool {
+//        let predicate = NSPredicate(format: "SELF MATCHES %@", regex)
+//        return predicate.evaluate(with: self)
+//    }
 }
