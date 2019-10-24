@@ -11,6 +11,11 @@
 - KASWaveButton
     - 正弦水纹进度按钮
 
+- KARThrottler
+	 - 节流实现
+- KARSafeArray
+	 - 线程安全数组
+
 - OtherExtension
 	- KRAColorExtension
 	- KRAStringExtension
